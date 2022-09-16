@@ -4,13 +4,14 @@ body{
 }
 #horizontal-list{
     list-style: none;
-    background-color: blue;
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, blue, green, blue, green, blue);
     color: white;
     font-weight: 500;
 }
 .li{
     display: inline-block;
-    margin: 10px 40px 20px 0px;
+    margin: 10px 55px 20px 0px;
 }
 .input{
     height: 35px;
